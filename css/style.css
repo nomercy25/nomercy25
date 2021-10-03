@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+hr {
+    border-top: 1px solid #696969;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/*Header*/
+
+header .row-header {
+    display: flex;
+    padding-top: 30px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+header .row-header .bg-header-grey {
+    background: #777777;
+    width: 100%;
+    padding: 30px;
+}
+
+header .col-one,
+header .col-two,
+header .col-three {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header .col-one {
+    display: flex;
+    width: 15%;
+}
+
+header .col-two {
+    display: flex;
+    width: 35%;
+}
+
+header .col-three {
+    display: flex;
+    width: 50%;
+    text-align: right;
+    color: #fff;
+}
+
+/* Article,body */
+
+article .left-col {
+    background: #777777;
+    width: 184px;
+    height: 335px;
+    color: #fff;
+    text-align: left;
+    padding-left: 10px;
+}
+
+article .name1 {
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.bg-article-grey {
+    font-size: 16px;
+}
+
+article .mid-col {
+    width: 900px;
+    height: 210px;
+    background: #dcdcdc;
+    position: relative;
+    margin-top: -290px;
+    margin-left: 200px;
+}
+
+article .bg-mid-grey {
+    color: #777777;
+    padding: 23px;
+}
+
+article .mid-text {
+    margin-left: 20px;
+}
+
+article .row-article {
+    display: flex;
+    margin-top: 20px;
+}
+
+article .row-article .column-bg {
+    background-color: #dcdcdc;
+    width: 164px;
+    height: 118px;
+}
+
+article .column-two {
+    width: 164px;
+    margin-left: 20px;
+}
+
+article .column-three {
+    width: 164px;
+    margin-left: 20px;
+}
+
+article .column-four {
+    width: 164px;
+    height: 142px;
+    margin-left: 20px;
+}
+
+article .column-five {
+    width: 164px;
+    height: 142px;
+    margin-left: 20px;
+}
+
+article .column-bottom-two {
+    width: 164px;
+    height: 142px;
+    margin-left: 20px;
+}
+
+article .left-bottom-col {
+    background: #777777;
+    width: 184px;
+    height: 135px;
+    color: #fff;
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 305px;
+}
+
+article .row-bottom-article {
+    background-color: #dcdcdc;
+    width: 439px;
+    height: 223px;
+    margin-top: 20px;
+}
+
+article .bottom-text1 {
+    color: #777777;
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+}
+
+article .bottom-column-two {
+    margin-top: -165px;
+    margin-left: 458px;
+    width: 442px;
+    height: 223px;
+    background-color: #dcdcdc;
+}
+
+article .bottom-text2 {
+    color: #777777;
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+}
+
+/* Footer */
+
+footer .footer-column-one {
+    width: 297px;
+    height: 180px;
+    background-color: #777777;
+    margin-bottom: 25px;
+}
+
+
+footer .column1 li {
+    display:block;
+    float:left;
+    width:50%;
+}
+footer .column1 {
+    margin:0;
+    margin-left: 7px;
+    margin-bottom: 24px;
+    padding: 18px;
+    list-style-type:none;
+    color: #fff;
+}
+
+footer .footer-column-two {
+    width: 297px;
+    height: 180px;
+    background-color: #777777;
+    margin-top: -60px;
+    margin-left: 325px;
+}
+
+footer .column2 {
+    list-style-type: square;
+    color: #fff;
+    padding: 18px;
+    margin-left: 23px;
+
+}
+
+footer .footer-row-one {
+    height: 75px;
+    width: 460px;
+    background-color: #777777;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: -205px;
+
+}
+
+footer .footer-row-two {
+    height: 75px;
+    width: 460px;
+    background-color: #777777;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+
+/* Media */
+
+/*(<=1199px) CSS для ширины от 992px до 1199px*/
+
+@media (max-width: 1199px) {}
+
+
+/* (<=991px) CSS для ширины от 768px до 991px*/
+
+@media print {
+    .product-wraper .product-col {
+        width: 50%;
+    }
+}
+
+
+/* (<=768px) CSS для ширины от 576px до 767px */
+
+@media (max-width: 767px) {}
+
+
+/* (<=575px) CSS для ширины до 575px (включительно) */
+
+@media (max-width: 575px) {}
